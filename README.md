@@ -43,7 +43,7 @@ Ver [`docs/architecture/hexagonal-overview.md`](docs/architecture/hexagonal-over
 
 ```bash
 # Clonar o repositório
-git clone <url-do-repositorio>
+git clone https://github.com/luisantoniofilho/api-clientes.git
 cd api-clientes
 
 # Instalar dependências
@@ -117,9 +117,12 @@ O Husky executa `lint-staged` automaticamente no `pre-commit` — garante que ne
 docs/
 ├── architecture/
 │   ├── hexagonal-overview.md   # Arquitetura hexagonal
-│   ├── c4-context.drawio       # Diagrama C4 — Contexto
-│   ├── c4-container.drawio     # Diagrama C4 — Containers
-│   └── c4-component.drawio     # Diagrama C4 — Componentes
+│   ├── c4-context.drawio       # Diagrama C4 — Contexto (editável)
+│   ├── c4-context.jpg          # Diagrama C4 — Contexto (imagem)
+│   ├── c4-container.drawio     # Diagrama C4 — Containers (editável)
+│   ├── c4-container.jpg        # Diagrama C4 — Containers (imagem)
+│   ├── c4-component.drawio     # Diagrama C4 — Componentes (editável)
+│   └── c4-component.jpg        # Diagrama C4 — Componentes (imagem)
 ├── patterns/
 │   └── design-patterns.md      # Design patterns utilizados
 ├── api/
