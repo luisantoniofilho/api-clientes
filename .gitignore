@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+*.sqlite
+.env
+.kiro
+.vitest
+tsconfig.tsbuildinfo
